@@ -19,7 +19,7 @@ for i in range(len(strs)):
                 for char in strs[i]:
                     count_i[char] = count_i.get(char,0) + 1
                 for char in strs[j]:
-                        =count_j[char] = count_j.get(char, 0) + 1
+                    count_j[char] = count_j.get(char, 0) + 1
 
                 if count_i == count_j:
                     group.append(strs[j])
