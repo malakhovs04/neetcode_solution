@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         result = []
@@ -31,3 +32,13 @@ class Solution:
             result.append(group)
     
         return result
+=======
+class Solution:
+    def hasDuplicate(self, nums: List[int]) -> bool:
+        seen = dict()
+        for num in nums:
+            if num in seen:
+                return True
+            seen[num] = True
+        return False
+>>>>>>> 9dda5c45882b8ba8978b316d89ef05360b56d51d
